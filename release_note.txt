@@ -1,0 +1,20 @@
+mBlock5 - Arduino extension for VIA Pixetto Vision Sensor
+
+Copyright (C) 2020  VIA Technologies, Inc. All rights reserved.
+
+Changelog
+
+2021-01-15	Release v1.4.1
+ * Arduino library : Pixetto-1.4.1
+ * Fix the bug that Pixetto can not be launched successfully when connecting to Arudino UNO board (VID:2341 by arduino.org).  
+ * Modification for mblock5 porting.
+    1. Remove redundant function IDs.
+    2. Remove Pixetto class destructor.
+    3. Add two functions getLanesField and getApriltagField for creating easy-to-use blocks in mblock5.
+
+2021-02-17	Release v1.4.2
+ * Arduino library : Pixetto-1.4.2
+ * Resolve the problem that Pixetto can not be launched when connecting to Matrix Mini D1~D4 ports.
+ * For the case that Pixetto can not be launched when connecting to Arduino UNO board,
+   reset Pixetto only when opencam is timeout, instead of resetting every startup.
+ * Support arduino_uno arduino_mega arduino_mega2560 arduino_micro arduino_nano arduino_nano_old arduino_uno_omrs.
