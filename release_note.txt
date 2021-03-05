@@ -18,3 +18,9 @@ Changelog
  * For the case that Pixetto can not be launched when connecting to Arduino UNO board,
    reset Pixetto only when opencam is timeout, instead of resetting every startup.
  * Support arduino_uno arduino_mega arduino_mega2560 arduino_micro arduino_nano arduino_nano_old arduino_uno_omrs.
+ 
+2021-03-05	Release v1.5.1
+ * Arduino library : Pixetto-1.5.1
+ * Add enableFunc block to switch among functions.
+ * Add setDetectMode block to switch between callback/event mode.
+ 
