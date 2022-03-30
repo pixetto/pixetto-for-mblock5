@@ -24,3 +24,6 @@ Changelog
  * Add enableFunc block to switch among functions.
  * Add setDetectMode block to switch between callback/event mode.
  
+2022-03-30	Release v1.6.3
+ * Arduino library : Pixetto-1.6.3
+ * Rebase on Pixetto Lite library.
