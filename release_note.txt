@@ -27,3 +27,9 @@ Changelog
 2022-03-30	Release v1.6.3
  * Arduino library : Pixetto-1.6.3
  * Rebase on Pixetto Lite library.
+
+2022-03-30	Release v1.6.4
+ * Arduino library : Pixetto-1.6.4
+ * Remove Pixetto category icon.
+ * Change default RX/TX pins to 0/1.
+
